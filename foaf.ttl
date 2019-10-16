@@ -1,0 +1,37 @@
+@base <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix bio: <http://purl.org/vocab/bio/0.1/>.
+
+<> a foaf:Document ;
+   dc:date "2019-10-07"^^xsd:date ;
+   dc:title "FeIipe's FOAF Profile"@en ;
+   foaf:primaryTopic <#fm> ;
+   dc:creator <#fm> .
+
+<#fm> a foaf:Person ;
+   rdfs:label "Felipe Manen" ;
+   rdfs:comment "Estudiante del DCC"@es ;
+   foaf:name "Felipe Manen" ;
+   foaf:givenName "Felipe" ;
+   foaf:familyName "Manen" ;
+   foaf:age 25 ; 
+   foaf:img <http://i1.wp.com/movienetworkpr.com/wp-content/uploads/2018/03/isle-of-dogs-movie-image-8.jpg?resize=759%2C500&ssl=1> ;
+   foaf:homepage <http://twitter.com/femanen> ;
+   foaf:knows <http://raw.githubusercontent.com/jawilliam/Knowledge-Discovery-Foundation/master/myProfile.ttl> ;
+   foaf:knows <http://raw.githubusercontent.com/mabelin/Lab-9-Linked-Data/master/foaf.ttl> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#dh> ;
+   foaf:knows <http://raw.githubusercontent.com/JoseIVP/lab9-watos/master/jose.ttl#jv> ;
+   foaf:interest <http://www.wikidata.org/wiki/Q217112> , <http://www.wikidata.org/wiki/Q788822> , <http://www.wikidata.org/wiki/Q22001133> , <http://www.wikidata.org/wiki/Q1196918> ,  <http://www.wikidata.org/wiki/Q939736>;
+   foaf:myersBriggs "INFP" ;
+   foaf:gender "male" ;
+   foaf:schoolHomepage <http://www.uchile.cl/> ;
+   social:hasSpiritAnimal <http://www.wikidata.org/wiki/Q8331> ;
+   social:enemy <http://www.wikidata.org/wiki/Q2419338> ;
+   bio:olb "Joven santiaguino, criado en Puerto Montt. Amante de las películas."@es ;
+   bio:keywords "joven, estudiante, peliculas"@es .
