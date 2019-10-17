@@ -33,6 +33,6 @@
    foaf:gender "male" ;
    foaf:schoolHomepage <http://www.uchile.cl/> ;
    social:hasSpiritAnimal <http://www.wikidata.org/wiki/Q8331> ;
-   social:enemy <http://www.wikidata.org/wiki/Q2419338> ;
+   social:enemy <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#dh> ;
    bio:olb "Joven santiaguino, criado en Puerto Montt. Amante de las películas."@es ;
    bio:keywords "joven, estudiante, peliculas"@es .
